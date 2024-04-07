@@ -8,11 +8,11 @@ Con la ejecución de este archivo de codigo python podrás alternar entre el mod
 ## Resumen de comandos
 | Comando | Función | Ejemplo |
 | -- | -- | -- |
-| sin argumentos | Listar y seleccionar la interfaz de red | python3 antena.py | 
-| -h, -help | Información de todas las opciones | python3 antena.py -h |
-| -inter | Especificar la interfaz de red | python3 antena.py -inter holaMundo |
-| -iniciar | Inicia el modo monitor (promiscuo) para la interface especificada en default_interface.txt | python3 antena.py -iniciar |
-| -apagar | Regresa al modo manage y reestablece las interfaces | python3 antena.py -apagar|
+| sin argumentos | **Listar y seleccionar** la interfaz de red | *python3 antena.py* | 
+| -h, -help | **Información** de todas las opciones | *python3 antena.py -h* |
+| -inter | **Especificar** la interfaz de red | *python3 antena.py -inter holaMundo* |
+| -iniciar | **Inicia** el modo monitor (promiscuo) para la interface especificada en default_interface.txt | *python3 antena.py -iniciar* |
+| -apagar | **Regresa** al modo manage y reestablece las interfaces | *python3 antena.py -apagar*|
  
 ## 🧠 Gracias a...
 Gracias a [Jupiter](https://www.instagram.com/ciber_jupiter/?hl=es) por sus aportes en el código.
