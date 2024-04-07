@@ -3,10 +3,10 @@ Con la ejecución de este archivo de codigo python podrás alternar entre el mod
 
 <img src="https://static.tp-link.com/TL-WN722N_EU_3.0_05_normal_1506586575378d.jpg" width="200px"/>
 
-## 💯 Creditos
+## 🔁 Creditos
 Este es un reconocimiento para los creadores de las herramientas usadas en el proceso.
 
-|    Herramienta    | Autores |
+| Herramienta | Autores |
 |-----------:|-----------|
-| rtl8188eus |  KanuX-14  |
-| Aircrack-ng| Thomas d'Otreppe  |
+| rtl8188eus | KanuX-14 |
+| Aircrack-ng | Thomas d'Otreppe |
