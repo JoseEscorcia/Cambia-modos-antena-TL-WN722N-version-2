@@ -21,6 +21,6 @@ Gracias a [Jupiter](https://www.instagram.com/ciber_jupiter/?hl=es) por sus apor
 Este es un reconocimiento para los creadores de las herramientas usadas en el proceso.
 
 | Herramienta | Autor |
-|-----------:|-----------|
+| -- | -- |
 | rtl8188eus | KanuX-14 |
 | Aircrack-ng | Thomas d'Otreppe |
