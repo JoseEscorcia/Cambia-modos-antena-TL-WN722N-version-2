@@ -21,9 +21,9 @@ Nota: este archivo fue pensado para usarlo en Kali Linux.
 Con este comando podrás listar las interfaces de red disponibles y seleccionar aquella donde se encuentra la antena. La opción que selecciones quedará almacenada en un archivo de texto llamado "default_interface.txt" (este se guardará de forma automatica en la ruta /home/kali), de manera que ya la proxima vez que vayas a usar la antena no tendrás que especificar la antena y puedes proceder a activar/desactivar el modo monitor de una vez.
 
 ```
-python3 antena.py -inter El_Valecita
+python3 antena.py
 ```
-<img src="inter.jpg">
+<img src="listar.jpg">
 
 
 
@@ -40,11 +40,29 @@ python3 antena.py -h
 Con este comando podrás escribir el nombre de la interfaz en la cual está la antena. El nombre de la interfaz que ingreses quedará almacenada en un archivo de texto llamado "default_interface.txt" (este se guardará de forma automatica en la ruta /home/kali), de manera que ya la proxima vez que vayas a usar la antena no tendrás que especificar la antena y puedes proceder a activar/desactivar el modo monitor de una vez.
 
 ```
-python3 antena.py
+python3 antena.py -inter El_Valecita
 ```
-<img src="listar.jpg">
+<img src="inter.jpg">
 
+
+## Iniciar el modo monitor (promiscuo)
+Con este comando podrás iniciar el modo monitor.
+
+```
+python3 antena.py -iniciar
+```
+<img src="Iniciar.jpg">
  
+
+## Apagar el modo monitor
+Con este comando podrás detener el modo monitor, lo llevará a su estado base (manage) y restablecerá las interfaces, logrando esto que vuelva a tener conexión a la red.
+
+```
+python3 antena.py -apagar
+```
+<img src="apagar.jpg">
+
+
 ## 🧠 Gracias a...
 Gracias a [Jupiter](https://www.instagram.com/ciber_jupiter/?hl=es) por sus aportes en el código.
 
