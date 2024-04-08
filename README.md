@@ -23,7 +23,7 @@ Con este comando podrás listar las interfaces de red disponibles y seleccionar 
 ```
 python3 antena.py
 ```
-
+<img src="listar.jpg">
  
 ## 🧠 Gracias a...
 Gracias a [Jupiter](https://www.instagram.com/ciber_jupiter/?hl=es) por sus aportes en el código.
