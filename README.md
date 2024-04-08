@@ -21,9 +21,29 @@ Nota: este archivo fue pensado para usarlo en Kali Linux.
 Con este comando podrás listar las interfaces de red disponibles y seleccionar aquella donde se encuentra la antena. La opción que selecciones quedará almacenada en un archivo de texto llamado "default_interface.txt" (este se guardará de forma automatica en la ruta /home/kali), de manera que ya la proxima vez que vayas a usar la antena no tendrás que especificar la antena y puedes proceder a activar/desactivar el modo monitor de una vez.
 
 ```
+python3 antena.py -inter El_Valecita
+```
+<img src="inter.jpg">
+
+
+
+## Opción de ayuda
+Al ejecutar este comando se dará la lista completa de todos los comandos que proporciona "antena.py".
+
+```
+python3 antena.py -h
+```
+<img src="help.jpg">
+
+
+## Especificar manualmente la interfaz
+Con este comando podrás escribir el nombre de la interfaz en la cual está la antena. El nombre de la interfaz que ingreses quedará almacenada en un archivo de texto llamado "default_interface.txt" (este se guardará de forma automatica en la ruta /home/kali), de manera que ya la proxima vez que vayas a usar la antena no tendrás que especificar la antena y puedes proceder a activar/desactivar el modo monitor de una vez.
+
+```
 python3 antena.py
 ```
 <img src="listar.jpg">
+
  
 ## 🧠 Gracias a...
 Gracias a [Jupiter](https://www.instagram.com/ciber_jupiter/?hl=es) por sus aportes en el código.
